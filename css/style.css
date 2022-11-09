@@ -810,7 +810,7 @@ section.no-bg, #content.no-bg{
 /* ================================================== */
 
 footer {
-	background: #071C26;
+	background: #edf5ff;
 	color:#ffffff;
 	padding: 80px 0 40px 0;
 }
@@ -829,12 +829,12 @@ footer.footer-black{
 }
 
 footer h5, .de_light footer h5 {
-	color: #fff;
+	color: #000;
 	font-size: 16px;
 	text-transform: none;
 }
 footer a {
-	color: #ffffff;
+	color: #000;
 	text-decoration:none !important;
 }
 .de-navbar-left footer {
@@ -2447,7 +2447,7 @@ footer h1, footer h2, footer h4, footer h4, footer h5, footer h6 {
 	color: #fff;
 }
 h2.text-light, footer h4, footer h4, footer h5, footer h6 {
-	color: #fff;
+	color: #000;
 }
 h1, .h1 {
 	font-size: 52px;
@@ -10499,4 +10499,7 @@ a, img {
 	background-size: auto 100%;
 	background-attachment:scroll;
 	}
+}
+.dark-hover:hover{
+	color: #fff !important;
 }
